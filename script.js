@@ -30,28 +30,28 @@ const humidity = data.main.humidity;
 const wind = data.wind.speed * 3.6;
 
 if(temp >= 20 && temp <= 40 && humidity <= 50 && wind <= 15){
-icon.src = "images/clear.png";
+icon.src = "clear.png";
 }
 
 else if(temp >= 15 && temp <= 30 && humidity >= 40 && humidity <= 80 && wind >= 5 && wind <= 25){
-icon.src = "images/clouds.png";
+icon.src = "clouds.png";
 }
 
 else if(temp >= 15 && temp <= 25 && humidity >= 80 && humidity <= 100 && wind >= 5 && wind <= 20){
-icon.src = "images/drizzle.png";
+icon.src = "drizzle.png";
 }
 
 else if(temp >= 10 && temp <= 20 && humidity >= 90 && humidity <= 100 && wind <= 10){
-icon.src = "images/mist.png";
+icon.src = "mist.png";
 }
 
 else if(temp >= 10 && temp <= 28 && humidity >= 80 && humidity <= 100 && wind >= 10 && wind <= 40){
-icon.src = "images/rain.png";
+icon.src = "rain.png";
 }
 
 
 else if(temp <= 0 && humidity >= 70 && humidity <= 100 && wind >= 5 && wind <= 30){
-icon.src = "images/snow.png";
+icon.src = "snow.png";
 }
 
 }
